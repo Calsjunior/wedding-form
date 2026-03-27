@@ -1,3 +1,8 @@
+:root {
+    --color-white: #f4f8fb;
+    --color-black: #2d2d2d;
+}
+
 @font-face {
     font-family: "Playfair Display";
     src:
@@ -15,9 +20,11 @@
 }
 
 body {
-    background-color: #f4f8fb;
     overflow: hidden;
     min-height: 100vh;
+    font-size: 10px;
+    color: var(--color-black);
+    background-color: var(--color-white);
 }
 
 .auth-layout {
@@ -34,14 +41,16 @@ body {
 
 .form {
     flex: 1;
-
-    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 10rem;
 }
 
 .form__title {
     text-align: center;
     font-family: "Playfair Display", Arial, Helvetica, sans-serif;
-    font-size: 1.25rem;
+    font-size: clamp(1.5rem, 5vw, 3rem);
 }
 
 .form__container {

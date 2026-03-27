@@ -6,15 +6,20 @@
 
 body {
     background-color: #f4f8fb;
+    overflow: hidden;
+    min-height: 100vh;
 }
 
 .auth-layout {
-    min-height: 100vh;
     display: flex;
 }
 
 .sidebar {
     flex: 0 0 40%;
+}
+
+.sidebar__image {
+    max-height: 100vh;
 }
 
 .form {

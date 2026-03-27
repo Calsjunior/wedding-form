@@ -2,6 +2,7 @@
     --color-white: #f4f8fb;
     --color-black: #2d2d2d;
     --color-gray: #bdbcc1;
+    --color-teal: #839d9a;
 }
 
 @font-face {
@@ -84,4 +85,13 @@ body {
     padding: 0.75rem;
     border: 2px solid var(--color-gray);
     border-radius: 6px;
+}
+
+.form__btn {
+    font-size: inherit;
+    color: var(--color-white);
+    background-color: var(--color-teal);
+    border: none;
+    border-radius: 6px;
+    padding: 1.5rem;
 }

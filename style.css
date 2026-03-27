@@ -99,7 +99,7 @@ body {
 
 .form__btn {
     width: 100%;
-    font-size: inherit;
+    font-size: 1.8rem;
     color: var(--color-white);
     background-color: var(--color-teal);
     border: none;

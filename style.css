@@ -16,9 +16,9 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
@@ -26,12 +26,12 @@ html {
 }
 
 body {
-    overflow: hidden;
     min-height: 100vh;
-    color: var(--color-black);
-    background-color: var(--color-white);
+    overflow: hidden;
     font-size: 1.6rem;
     font-weight: 600;
+    color: var(--color-black);
+    background-color: var(--color-white);
 }
 
 img {
@@ -62,17 +62,17 @@ button {
 }
 
 .form {
-    flex: 1;
     display: flex;
+    flex: 1;
     flex-direction: column;
     gap: 2rem;
     padding: 15rem;
 }
 
 .form__title {
-    text-align: center;
     font-family: "Playfair Display", Arial, Helvetica, sans-serif;
     font-size: 5rem;
+    text-align: center;
 }
 
 .form__container {
@@ -82,10 +82,10 @@ button {
 }
 
 .form__group {
-    width: calc(50% - 0.75rem);
     display: flex;
     flex-direction: column;
     gap: 5px;
+    width: calc(50% - 0.75rem);
 }
 
 .form__label,
@@ -98,14 +98,14 @@ button {
     --_bg: var(--bg, var(--color-white));
     --_border: var(--border, var(--color-gray));
 
-    color: var(--_text);
-    background-color: var(--_bg);
     padding: 0.75rem;
-    border: 2px solid var(--_border);
-    border-radius: 6px;
     font-size: 1.75rem;
+    color: var(--_text);
     letter-spacing: 1px;
     outline: none;
+    background-color: var(--_bg);
+    border: 2px solid var(--_border);
+    border-radius: 6px;
 }
 
 .form__field:focus {
@@ -125,14 +125,14 @@ button {
 
 .form__btn {
     width: 100%;
+    padding: 1.5rem;
     font-size: 1.8rem;
     color: var(--color-white);
+    cursor: pointer;
     background-color: var(--color-teal);
     border: none;
     border-radius: 6px;
-    padding: 1.5rem;
     box-shadow: 0 2px 2px var(--color-gray);
-    cursor: pointer;
 }
 
 .form__btn:active {

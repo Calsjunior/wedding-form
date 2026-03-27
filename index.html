@@ -7,53 +7,60 @@
         <title>Ever After Photography</title>
     </head>
     <body>
-        <main class="sign-up">
-            <aside class="sign-up__sidebar">
+        <main class="auth-layout">
+            <aside class="sidebar">
                 <img
-                    class="sign-up__image"
+                    class="sidebar__image"
                     src="./assets/wedding-photo.avif"
                     alt="An overhead shot of a wedding couple walking up the stairs">
             </aside>
 
-            <form class="sign-up__form">
-                <h1>Relive your magic</h1>
+            <form class="form">
+                <h1 class="form__title">Relive your magic</h1>
 
-                <div class="sign-up__input">
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" name="first-name" required>
-                </div>
+                <div class="form__container">
+                    <div class="form__group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
 
-                <div class="sign-up__input">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name" name="last-name" required>
-                </div>
+                    <div class="form__group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
 
-                <div class="sign-up__input">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
+                    <div class="form__group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
 
-                <div class="sign-up__input">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
+                    <div class="form__group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
 
-                <div class="sign-up__input">
-                    <label for="password-confirm">Confirm Password</label>
-                    <input
-                        type="password"
-                        id="password-confirm"
-                        name="password-confirm"
-                        required>
-                </div>
+                    <div class="form__group">
+                        <label for="password-confirm">Confirm Password</label>
+                        <input
+                            type="password"
+                            id="password-confirm"
+                            name="password-confirm"
+                            required>
+                    </div>
 
-                <div class="sign-up__input">
-                    <label for="access-code">Access Code</label>
-                    <input type="numeric" id="access-code" name="access-code" required>
-                </div>
+                    <div class="form__group">
+                        <label for="access-code">Access Code</label>
+                        <input
+                            type="text"
+                            inputmode="numeric"
+                            id="access-code"
+                            name="access-code"
+                            required>
+                    </div>
 
-                <div class="sign-up__btn">
-                    <button type="submit">Enter the gallery</button>
+                    <div class="form__btn">
+                        <button type="submit">Enter the gallery</button>
+                    </div>
                 </div>
             </form>
         </main>

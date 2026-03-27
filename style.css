@@ -19,12 +19,18 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     overflow: hidden;
     min-height: 100vh;
-    font-size: 10px;
     color: var(--color-black);
     background-color: var(--color-white);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
 .auth-layout {

@@ -110,7 +110,8 @@ button {
 }
 
 .form__field:focus {
-    outline: 3px solid var(--color-teal);
+    outline: 3.5px solid var(--color-teal);
+    border: none;
 }
 
 .form__field--access {

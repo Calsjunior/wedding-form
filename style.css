@@ -108,3 +108,7 @@ body {
     box-shadow: 0 2px 2px var(--color-gray);
     cursor: pointer;
 }
+
+.form__btn:active {
+    filter: brightness(0.9);
+}

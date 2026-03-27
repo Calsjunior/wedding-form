@@ -83,16 +83,28 @@ body {
 }
 
 .form__field {
-    background-color: var(--color-white);
+    --_text: var(--text, var(--color-black));
+    --_bg: var(--bg, var(--color-white));
+    --_border: var(--border, var(--color-gray));
+
+    color: var(--_text);
+    background-color: var(--_bg);
     padding: 0.75rem;
-    border: 2px solid var(--color-gray);
+    border: 2px solid var(--_border);
     border-radius: 6px;
     font-size: 1.75rem;
+    letter-spacing: 1px;
     outline: none;
 }
 
 .form__field:focus {
     outline: 3px solid var(--color-teal);
+}
+
+.form__field--access {
+    --text: #484437;
+    --bg: #b1bab5;
+    --border: var(--color-teal);
 }
 
 .form__group--full {

@@ -34,6 +34,17 @@ body {
     font-weight: 600;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+textarea,
+button {
+    font: inherit;
+}
+
 .auth-layout {
     display: flex;
     align-items: center;

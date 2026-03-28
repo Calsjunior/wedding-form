@@ -85,6 +85,18 @@ button {
     background-color: var(--color-blue);
 }
 
+.sidebar__overlay--footer {
+    bottom: 0px;
+}
+
+.sidebar__credit {
+    font-size: calc(0.75rem + 0.5vw);
+    color: var(--color-white);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
 .sidebar__image {
     width: 100%;
     height: 100%;

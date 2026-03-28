@@ -82,6 +82,7 @@ button {
 }
 
 .form__group {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -91,6 +92,15 @@ button {
 .form__label,
 .form__field {
     appearance: none;
+}
+
+.form__label--icon {
+    position: absolute;
+    bottom: 9px;
+    left: 10px;
+    width: 18px;
+    height: 18px;
+    fill: var(--color-black);
 }
 
 .form__field {

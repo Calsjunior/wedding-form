@@ -3,6 +3,7 @@
     --color-black: #373732;
     --color-gray: #9ea9a5;
     --color-teal: #839d9a;
+    --color-red: #e07b78;
 }
 
 @font-face {
@@ -122,6 +123,12 @@ button {
 .form__field:focus {
     outline: 3.5px solid var(--color-teal);
     border: none;
+}
+
+/* If access field is focused or there's a value in input, remove icon */
+.form__group:focus-within .form__label--icon,
+.form__group:has(.form__field--access:not(:placeholder-shown)) .form__label--icon {
+    display: none;
 }
 
 .form__field--access {

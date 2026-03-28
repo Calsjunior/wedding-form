@@ -71,14 +71,17 @@ button {
 .brand {
     font-family: "Pinyon Script", sans-serif;
     font-size: calc(5vw - 2rem);
+}
+
+.sidebar__overlay {
+    position: absolute;
+    width: 100%;
+    padding: 20px;
     text-align: center;
 }
 
-.sidebar__header-overlay {
-    position: absolute;
+.sidebar__overlay--header {
     top: 40px;
-    width: 100%;
-    padding: 20px;
     background-color: var(--color-blue);
 }
 

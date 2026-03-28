@@ -95,7 +95,7 @@ button {
     appearance: none;
 }
 
-.form__label--icon {
+.form__icon {
     position: absolute;
     bottom: 9px;
     left: 10px;
@@ -130,8 +130,8 @@ button {
 }
 
 /* If access field is focused or there's a value in input, remove icon */
-.form__group:focus-within .form__label--icon,
-.form__group:has(.form__field--access:not(:placeholder-shown)) .form__label--icon {
+.form__group:focus-within .form__icon,
+.form__group:has(.form__field--access:not(:placeholder-shown)) .form__icon {
     display: none;
 }
 

@@ -130,8 +130,8 @@ button {
 }
 
 /* If access field is focused or there's a value in input, remove icon */
-.form__group:focus-within .form__icon,
-.form__group:has(.form__field--access:not(:placeholder-shown)) .form__icon {
+.form__field--access:focus ~ .form__icon,
+.form__field--access:not(:placeholder-shown) ~ .form__icon {
     display: none;
 }
 
